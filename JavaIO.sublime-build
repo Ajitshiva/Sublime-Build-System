@@ -1,5 +1,5 @@
 {
-	"cmd": "javac $file_name && timeout 4s java $file_base_name < input.in > output.in",
+	"cmd": "javac $file_name && timeout 4s java $file_base_name < input.txt > output.txt",
 	"selector": "source.java",
 	"shell": true,
 	"working_dir": "$file_path"
